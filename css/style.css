@@ -13,6 +13,38 @@
     color: var(--main-color);
 }
 
+header {
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+li:first-child {
+    margin-right: 80px;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline solid var(--main-color) 2px;
+    color: var(--main-color);
+    text-underline-offset: -55px;
+}
+
 body {
     display: flex;
     justify-content: center;

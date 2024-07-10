@@ -351,6 +351,34 @@ a {
 
 }
 
+/****** Footer ***********/
+
+footer {
+    background-color: var(--main-bg-color);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.footer-content {
+ display: flex;
+}
+
+.footer-content a{
+    display: block;
+    margin: 10px 0;
+}
+
+.footer-a-propos {
+    width: 33%;
+}
+
+.footer-hebergement {
+    width: 33%;
+}
+
+.footer-help {
+    width: 33%;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/

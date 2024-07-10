@@ -167,6 +167,59 @@ li:hover {
     border-radius: 50%;
 }
 
+.hébergements {
+    width: 67%;
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.hébergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lien-card {
+    width: 30%;
+    min-width: 120px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 33px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #DADADA;
+    transition: 0.3s;
+}
+.lien-card img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-title-héber{
+    margin: 1px 0px 8px 15px;
+}
+.card-subtitle-héber {
+    margin: 8px 0px 8px 15px;
+}
+.text-fin-héber {
+    font-size: 18px;
+    margin-top: 33px;
+}
+
+.card-rating-héber {
+    display: flex;
+    align-items: center;
+    margin: 8px 0px 8px 15px;
+}
+.card-subtitle {
+    margin: 0;
+}
+
+.card-title {
+    margin: 0;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -263,8 +316,40 @@ a {
     margin-bottom: 5px;
 }
 
+.activities-section-title {
+    margin: 30px;
+    font-size: 22px;
+}
 
 
+/****** Activities ***********/
+
+.activities-section-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.activities-section-cards a {
+    width: 23%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #DADADA;
+    transition: 0.3s;
+}
+
+.activities-section-cards img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-subtitle {
+    margin: 20px;
+
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

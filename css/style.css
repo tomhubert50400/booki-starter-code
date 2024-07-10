@@ -16,11 +16,12 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 header {
     display: flex;
-    padding: 40px 0;
+    padding-bottom: 40px;
     justify-content: space-between;
 }
 
@@ -46,13 +47,10 @@ li:first-child {
 
 li:hover {
     cursor: pointer;
-    text-decoration: underline solid var(--main-color) 2px;
+    text-decoration: underline solid var(--main-color) 3px;
     color: var(--main-color);
-    text-underline-offset: -35px;
+    text-underline-offset: -31px;
     transition: ease-in-out 0.5s;
-}
-
-.hero {
 }
 
 .hero-title {
@@ -65,8 +63,6 @@ li:hover {
     margin: 0;
     margin-top: 10px;
 }
-
-
 
 .main-container {
     width: 100%;
@@ -115,6 +111,60 @@ li:hover {
     font-size: 20px;
     font-weight: bold;
     border-radius: 0 15px 15px 0;
+}
+
+.filters-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    border: 3px solid var(--main-bg-color);
+    border-radius: 25px;
+    transition: ease-in 0.5s;
+}
+
+.filters:hover {
+    cursor: pointer;
+    background-color: var(--filter-bg-color);
+    
+}
+
+.filters i {
+    color: var(--main-color);
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.filters-container h2 {
+    padding: 10px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.filters-container h2:first-child {
+    padding-left: 0;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    
+}
+
+.infos p {
+    margin: 50px 20px;
+    color:#000000
+}
+.infos i {
+    font-size: 12px;
+    padding: 5px 9px;
+    border: var(--main-bg-color) 2px solid;
+    border-radius: 50%;
 }
 
 a {

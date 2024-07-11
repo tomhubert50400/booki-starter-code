@@ -32,4 +32,4 @@ Booki est une application de réservation de logements de courte durée en ligne
 
 ## Auteur
 
-- **Tom HUBERT** - [Votre Profil GitHub](https://github.com/tomhubert50400/)
+- **Tom HUBERT** - [GitHub](https://github.com/tomhubert50400/)

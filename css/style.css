@@ -121,7 +121,7 @@ li:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60vw;
+    width: 70vw;
 }
 
 .filters {
@@ -130,6 +130,7 @@ li:hover {
     border: 3px solid var(--main-bg-color);
     border-radius: 25px;
     transition: ease-in 0.5s;
+    width: 22%;
 }
 
 .filters:hover {
@@ -141,7 +142,7 @@ li:hover {
 .filters i {
     color: var(--main-color);
     font-size: 22px;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .filters-container h2 {

@@ -437,6 +437,8 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768.98px) {
 
+    
+
     header {
         display: flex;
         flex-direction: column;
@@ -633,6 +635,10 @@ footer {
         width: 100%;
     }
 
+    .hébergements {
+        background-color: white !important;
+    }
+
 }
 @media (max-width: 399.98px) {
     .filters {
@@ -644,4 +650,5 @@ footer {
     .lien-card {
         width: 95%;
     }
+    
 }

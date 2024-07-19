@@ -71,6 +71,14 @@ li:hover {
     box-sizing: border-box;
 }
 
+/* .mobile {
+    display: flex;
+} */
+
+.button-mobile {
+display: none;
+}
+
 .search-bar-mobile {
     display: none;
 }
@@ -107,7 +115,7 @@ li:hover {
     font-size: 20px;
 }
 
-.search-bar button {
+.button-desktop {
     background-color: var(--main-color);
     color: white;
     border: none;
@@ -391,7 +399,7 @@ footer {
 @media (max-width: 1024px) {
 
     .filters-container {
-        width: 80vw;
+        width: 89vw;
     }
 
     .hebergements-and-populaires section {
@@ -463,54 +471,32 @@ footer {
     }
 
     .search-bar {
-       display: none;
+       display: flex;
     }
 
-    .search-bar-mobile {
-        display: flex;
-        align-items: center;
-        margin: 20px auto;
-        width: 250px;
-        height: 50px;
-        background-color: #F2F2F2;
-        border-radius: 15px;
+    .button-desktop {
+        display: none;
     }
+
+    .button-mobile {
+        background-color: var(--main-color);
+        display: block;
+        color: white;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 15px;
+        margin-left: -40px;
+        width: 60px;
+        height: 60px;
+        box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    } 
     
     .seachbar-icon {
         margin-left: 20px;
         
     }
     
-    .search-bar-mobile input {
-        border: none;
-        padding: 16px;
-    }
-    
-    .search-bar-mobile input::placeholder {
-        color: #000000;
-        font-weight: bold;
-        font-size: 16px;
-    }
-    
-    .search-bar-mobile i {
-        color: #000000;
-        padding: 15px;
-        font-size: 20px;
-    }
-    
-    .search-bar-mobile button {
-        background-color: var(--main-color);
-        color: white;
-        border: none;
-        font-size: 20px;
-        font-weight: bold;
-        border-radius: 15px;
-        margin-left: -30px;
-        width: 50px;
-        height: 50px;
-        box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.2);
-    }
-
     .fa-solid .fa-magnifying-glass {
         background-color: #fff;
     }
@@ -539,7 +525,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 100%;
+        width: 95%;
     }
 
     .filters-container h2{
@@ -642,9 +628,30 @@ footer {
 }
 @media (max-width: 399.98px) {
     .filters {
-        width: 48%;
+        width: 60%;
         margin: 10px 0;
 
+    }
+
+    .filters-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .search-bar input {
+        border: none;
+        padding: 16px;
+        font-size: 22px;
+        width: 200px;
+    }
+
+    .search-bar {
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px 0;
+        background-color: #F2F2F2;
+        border-radius: 15px;
     }
 
     .lien-card {

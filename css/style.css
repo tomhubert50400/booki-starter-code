@@ -71,10 +71,6 @@ li:hover {
     box-sizing: border-box;
 }
 
-/* .mobile {
-    display: flex;
-} */
-
 .button-mobile {
 display: none;
 }
@@ -138,7 +134,12 @@ display: none;
     border: 3px solid var(--main-bg-color);
     border-radius: 25px;
     transition: ease-in 0.5s;
-    width: 22%;
+}
+
+.filters h3 {
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
 }
 
 .filters:hover {
@@ -445,7 +446,10 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768.98px) {
 
-    
+    .search-bar button i:last-child{
+        color: #fff; 
+        padding: 0;
+    }
 
     header {
         display: flex;
@@ -525,7 +529,8 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 95%;
+        max-width: 400px;
+        flex: 1 1 auto;
     }
 
     .filters-container h2{
